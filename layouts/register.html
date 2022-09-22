@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link  rel="stylesheet" href="/css/register.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="mainContainer" class="container">
+        <div id="login">
+            <div id="tituloLogin">
+                <h2>Register</h2>
+            </div>
+            <div id="mainForm">
+                <form action="/registro" method="POST">
+                    <div id="formGroup">
+                        <input  type="text" name="email" placeholder="Email">
+                    </div>
+                    <div id="formGroup">
+                        <input  type="text" name="senha" placeholder="Senha">
+                    </div> 
+                    <div id="formGroup">
+                        <button type="submit">Registrar</button>
+                    </div>
+                    <div id="formGroup">
+                        <a id="botaoCadastrar"  href="/">Voltar</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    
+    <script type="module" src="./js/register.js"></script>
+</body>
+</html>

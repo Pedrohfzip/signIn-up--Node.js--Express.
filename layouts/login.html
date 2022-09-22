@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link  rel="stylesheet" href="/css/login.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="mainContainer" class="container">
+        <div id="login">
+            <div id="tituloLogin">
+                <h2>LOGIN</h2>
+            </div>
+            
+            <div id="mainForm">
+                <form action="/login" method="POST">
+                    <div id="formGroup">
+                        <input id="emailLogin" name="email" type="text" placeholder="Email">
+                    </div>
+                    <div id="formGroup">
+                        <input id="senhaLogin" name="senha" type="text" placeholder="Senha">
+                    </div> 
+                    <div id="formGroup">
+                        <button type="submit">Entrar</button>
+                    </div>
+                    <div id="formGroup">
+                        <a href="/formRegister">Registrar</a>
+                    </div>
+                    <!-- <a href="/findAll">Registre-se</a> -->
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="../app.js"></script>
+    <script type="module" src="login.js"></script>
+</body>
+</html>

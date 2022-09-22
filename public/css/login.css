@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+    font-family: 'Inter', sans-serif;
+}
+html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+input{
+    all: unset;
+}
+
+
+#mainContainer{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+}
+
+#login{
+    margin: 0;
+    padding: 0;
+    width: 600px;
+    height: 320px;
+    background-color: black;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    box-shadow: 1px 1px 10px rgba(185, 185, 218, 0.8);
+    
+}
+#tituloLogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    
+}
+#tituloLogin h2{
+    color: rgb(0, 0, 0);
+    
+}
+
+
+#mainForm{
+    display: flex;
+    width: 100%;
+    height: 220px;
+    align-items: center;
+    justify-content: center;
+}
+
+#mainForm form{  
+    width: 100%;
+    
+}
+#formGroup{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#formGroup input{
+    width: 65%;
+    padding: 10px 0;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px rgba(83, 78, 78, 0.8);
+    background: rgb(255, 255, 255);
+    transition-timing-function: ease;
+    transition-duration: 1s;
+    color: black;
+}
+#formGroup input::-webkit-input-placeholder{
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+#formGroup input:hover{
+    transition-timing-function: ease;
+    transition-duration: 0.5s;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#formGroup button{
+    width: 20%;
+    padding: 10px 0;
+    border-radius: 8px;
+    background: rgb(0, 0, 0);
+    transition-timing-function: ease;
+    transition-duration: 0.5s;
+    color: white;
+}
+#formGroup button:hover{
+    transition-timing-function: ease;
+    animation-delay: 3s;
+    transition-duration: 1s;
+    cursor: pointer;
+    color: white;
+}
+
+#formGroup a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
